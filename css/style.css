@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+:root {
+    --main-bg-color: #2455f4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 95px;
+    padding: 0px 23px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(178, 14, 14);
+}
+
+.search {
+    display: flex;
+    align-items: center; 
+}
+.search input{
+    margin: 0 16px 0 56px;
+    width: 30vw;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px 15px;
+}
+.search button{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+
+}
+.container {
+    min-height: calc(100vh - 60px - 12vh);
+    background-color: #eef4e8;
+}
+.slider{
+    margin:12px auto;
+    width: 80vw;
+    overflow: hidden;
+}
+
+.card{
+    margin: auto;
+    background-color:rgb(255, 255, 255);
+    width:91vw ;
+  }
+.card h2{
+    font-family: 'Merriweather', serif;
+    margin: 8px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin:0 auto;
+    justify-content: center;
+}
+.card-item{
+    display: inline-flex;
+flex-direction: column;
+width: 200px;
+margin: 12px;
+align-items: center;
+}
+
+.card-item img{
+    margin: 5px;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+.font{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: small;
+    color: green;
+    padding: 2px 0px;
+}
+footer {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
